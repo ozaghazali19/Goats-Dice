@@ -1,43 +1,3 @@
-# Goats Dice (DICING) Betting Bot
-
-A Python-based dice betting bot that uses the GoatsBot API in Telegram-based Bot @RealGoats_bot to automate dice game betting. The bot uses asynchronous operations with `aiohttp` for API interaction and dynamic betting strategies based on user configuration.
-
-[TELEGRAM CHANNEL](https://t.me/Deeplchain) | [TWITTER](https://x.com/itsjaw_real)
-
-## Register
-
-To use this bot, you need to register it with the Goats Telegram Bot. 
-
-1. Open the bot [t.me/Realgot_real](https://t.me/realgoats_bot/run?startapp=99effa5e-ac44-4be5-8f0d-64cf69f796e9)
-2. Click on the "[Start App](https://t.me/realgoats_bot/run?startapp=99effa5e-ac44-4be5-8f0d-64cf69f796e9)" or "[Open App]([url](https://t.me/realgoats_bot/run?startapp=99effa5e-ac44-4be5-8f0d-64cf69f796e9))" button
-3. Install This Real Goats Automations Bot
-4. Have Fun 🦈
-
-**Previous repository for Real Goats (Full Feature):** https://github.com/jawikas/goats-bot
-=
-## Features
-
-- Automated betting with dynamic chance adjustment.
-- Real-time tracking of wins, losses, balance, and profit.
-- Configurable bet amounts and multiplier settings.
-- Stop betting based on user-defined win/loss limits or target balance.
-- Adjustable delays between bets to mitigate detection.
-
-## Installation
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/jawikas/goats-dice-bot.git
-    cd goats-dice-bot
-    ```
-
-2. **Install the required dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Configuration
 
 The bot requires two configuration files: `config.json` and `tokens.txt`.
@@ -114,30 +74,3 @@ W/L | CHANCE   | BET       | RESULT  | BALANCE         | Profit
 [ W ] C:  50.0 | B:   1.00 |     2.0 | Bal:   22,788.0 | Profit: 1,400.0
 [ L ] C:  45.0 | B:   2.00 |     0.0 | Bal:   22,786.0 | Profit: 1,398.0
 ```
-### Requirements
-Create a requirements.txt file with the following content:
-
-```bash
-aiohttp==3.8.5
-colorama==0.4.6
-asyncio==3.4.3
-```
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-For any questions or support, please contact https://t.me/DeeplChainSup.
-
-## Disclaimer
-
-```txt
-**Use at Your Own Risk:** This bot is designed for educational and experimental purposes only. Betting and gambling carry inherent risks, and using this bot does not guarantee profits. Be aware of the legal and financial implications of online gambling in your jurisdiction before using this bot.
-
-**API Limits and Changes:** The bot interacts with the GoatsBot API, which may have usage limits or change over time. The functionality of this bot may be affected by changes in the API or its policies.
-
-**No Warranty:** The developers of this bot make no warranties regarding its performance, accuracy, or reliability. Use this bot at your own risk, and ensure you understand how it works before deploying it in a live environment.
-
-**Financial Responsibility:** The creators and contributors of this bot are not responsible for any financial loss, damage, or legal issues that may arise from its use. Always gamble responsibly and only wager what you can afford to lose.
-```
-By using this bot, you acknowledge that you have read and understood this disclaimer and agree to use it responsibly.
