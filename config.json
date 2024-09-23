@@ -5,8 +5,8 @@
     "high_chance": 90,
     "is_upper": false,
     "stop_win": 10000,
-    "stop_lose": 470000,
-    "target_balance": 500000,
+    "stop_lose": 310000,
+    "target_balance": 400000,
     "if_win": "multiply",  
     "if_lose": "multiply"
 }
